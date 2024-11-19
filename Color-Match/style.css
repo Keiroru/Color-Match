@@ -4,7 +4,9 @@ html {
     justify-content: center;
     align-items: center;
     height: 1000px;
-    background-color: rgb(100, 47, 16);
+    background-image: url(img/pexels-fwstudio-33348-139306.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -38,6 +40,7 @@ html {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+    color: white;
 }
 
 .butons {
