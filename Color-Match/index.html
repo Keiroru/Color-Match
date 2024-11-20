@@ -11,7 +11,21 @@
 
 <body onload="start()">
 
-    <div>
+    <div >
+        <div class="score" id="highScore">
+            High Score: 
+        </div>
+        <div class="score" id="score">
+            Score: 
+        </div>
+        <div class="score" id="multi">
+            Multiplier: 1
+        </div>
+        <div class="score">
+            <div id="wrong">
+
+            </div>
+        </div>
         <div class="cim">
             <h1>Does the meaning match the text color?</h1>
         </div>
@@ -32,12 +46,15 @@
             </div>
         </div>
         <div class="container1">
-            <div class="butons">
+            <div class="butons" id="no">
                 <h1 onclick="answer(false)">No <--</h1>
             </div>
             <div class="butons">
                 <h1 onclick="answer(true)"> --> Yes </h1>
             </div>
+        </div>
+        <div class="res" onclick="restart()">
+            Reset Button (r) vagy click me
         </div>
     </div>
 

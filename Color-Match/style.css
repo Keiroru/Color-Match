@@ -15,6 +15,11 @@ html {
     justify-content: space-between;
 }
 
+#wrong {
+    margin: auto;
+    color: red;
+}
+
 .container1 {
     width: 800px;
     display: flex;
@@ -41,6 +46,22 @@ html {
     justify-content: center;
     padding-bottom: 50px;
     color: white;
+}
+
+.res {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
 }
 
 .butons {
